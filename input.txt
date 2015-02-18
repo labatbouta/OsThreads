@@ -1,0 +1,96 @@
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj.c
+Usage: ./proj <proj.c>
+File size:18316
+Strings greater than 4: 1
+Maximum string length is: 18316
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj.c 100
+Usage: ./proj <proj.c>
+File size:18316
+Strings greater than 4: 1
+Maximum string length is: 18316
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj.c mmap
+Usage: ./proj <proj.c>
+File size:18316
+Strings greater than 4: 1
+Maximum string length is: 18316
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj.c p1
+Usage: ./proj <proj.c>
+File size:18316
+Strings greater than 4: 1
+Maximum string length is: 18316
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj.c p2
+Usage: ./proj <proj.c>
+File size:18316
+Strings greater than 4: 1
+Maximum string length is: 18316
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj.c p4
+Usage: ./proj <proj.c>
+File size:18316
+Strings greater than 4: 1
+Maximum string length is: 18316
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj.c p8
+Usage: ./proj <proj.c>
+File size:18316
+Strings greater than 4: 1
+Maximum string length is: 18316
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj.c p16
+Usage: ./proj <proj.c>
+File size:18316
+Strings greater than 4: 1
+Maximum string length is: 18316
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj
+Usage: ./proj <proj>
+File size:16999
+Strings greater than 4: 173
+Maximum string length is: 41
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj 100
+Usage: ./proj <proj>
+File size:16999
+Strings greater than 4: 173
+Maximum string length is: 41
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj mmap
+Usage: ./proj <proj>
+File size:16999
+Strings greater than 4: 173
+Maximum string length is: 41
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj p1
+Usage: ./proj <proj>
+File size:16999
+Strings greater than 4: 173
+Maximum string length is: 41
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj p2
+Usage: ./proj <proj>
+File size:16999
+Strings greater than 4: 173
+Maximum string length is: 41
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj p4
+Usage: ./proj <proj>
+File size:16999
+Strings greater than 4: 173
+Maximum string length is: 41
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj p8
+Usage: ./proj <proj>
+File size:16999
+Strings greater than 4: 173
+Maximum string length is: 41
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./proj proj p16
+Usage: ./proj <proj>
+File size:16999
+Strings greater than 4: 173
+Maximum string length is: 41
+
+
+lisa@lisa-VirtualBox:~/Documents/OsProject4$ ./doit proj proj2test 4000
+Shell command is ./proj
+Usage: ./proj <proj2test>
+File size:7318
+Strings greater than 4: 88
+Maximum string length is: 42
+Time User CPU: 000 ms
+CPU System time: 000 ms
+Number of Page Faults: 0 
+Number of Page Faults that can be satisfied by reclaiming memory: 209 
+ Number of Processes Preempted involuntarily: 0
+Number of Time Processes Give Up: 1
+ Wall-clock time: 001 ms 
+
